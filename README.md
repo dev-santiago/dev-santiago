@@ -6,6 +6,8 @@ Brazil 🇧🇷
 
 Pequenos projetos!
 https://organizaesportes.vercel.app/
+https://cabolandia.com.br/
+https://jcbeletrica.com.br/
 
 Telefone (35) 99825-0689
 Email: santiiagoterra1@gmail.com
