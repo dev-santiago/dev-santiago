@@ -10,36 +10,3 @@ https://organizaesportes.vercel.app/
 Telefone (35) 99825-0689
 Email: santiiagoterra1@gmail.com
 
-{
-    "name": "GitHub Readme Stats Dev",
-    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
-    "features": {
-        "ghcr.io/devcontainers/features/node:1": { "version": "22" }
-    },
-    "forwardPorts": [3000],
-    "portsAttributes": {
-        "3000": { "label": "HTTP" }
-    },
-    "appPort": [],
-
-    // Use 'postCreateCommand' to run commands after the container is created.
-    "postCreateCommand": "npm install -g vercel",
-
-    // Use 'postStartCommand' to run commands after the container is started.
-    "postStartCommand": "hostname dev && npm install",
-
-    // Configure tool-specific properties.
-    "customizations": {
-        "vscode": {
-            "extensions": [
-                "yzhang.markdown-all-in-one",
-                "esbenp.prettier-vscode",
-                "dbaeumer.vscode-eslint",
-                "github.vscode-github-actions"
-            ]
-        }
-    },
-
-    "remoteUser": "root",
-    "privileged": true
-}
